@@ -1,1 +1,37 @@
 
+[
+    {
+        "slot": "08:00",
+        "bookings": [
+            {
+                "id": 1,
+                "startAt": "08:00",
+                "status": "PENDING",
+                "note": "string",
+                "donor": {
+                    "firstName": "Ivan",
+                    "lastName": "Radunovic",
+                    "city":"Podgorica",
+                    "bloodType": "A"
+                }
+            }
+        ]
+    },
+    {
+        "slot": "09:30",
+        "bookings": [
+            {
+                "id": 1,
+                "startAt": "08:00",
+                "status": "PENDING",
+                "note": "string",
+                "donor": {
+                    "firstName": "Ivan",
+                    "lastName": "Radunovic",
+                    "city":"Podgorica",
+                    "bloodType": "A"
+                }
+            }
+        ]
+    }
+]
