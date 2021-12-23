@@ -1,37 +1,44 @@
-
-[
+{
+    "weekendEvents":[
     {
-        "slot": "08:00",
-        "bookings": [
-            {
-                "id": 1,
-                "startAt": "08:00",
-                "status": "PENDING",
-                "note": "string",
-                "donor": {
-                    "firstName": "Ivan",
-                    "lastName": "Radunovic",
-                    "city":"Podgorica",
-                    "bloodType": "A"
-                }
-            }
-        ]
+        "id": 1,
+        "uri": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "category": "Muzika"
+        ,
+        "details": {
+            "eventName": "Dzej Dzej okoca - koncert",
+            "location": "Stadion malih sportova",
+            "ticketsAvailable": 112,
+            "priceRange": "$5",
+            "icon": "music"
+        }
     },
     {
-        "slot": "09:30",
-        "bookings": [
-            {
-                "id": 1,
-                "startAt": "08:00",
-                "status": "PENDING",
-                "note": "string",
-                "donor": {
-                    "firstName": "Ivan",
-                    "lastName": "Radunovic",
-                    "city":"Podgorica",
-                    "bloodType": "A"
-                }
-            }
-        ]
+        "id": 2,
+        "uri": "https://images.pexels.com/photos/196652/pexels-photo-196652.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "category": "Kultura"
+        ,
+        "details": {
+            "eventName": "Dzada Film festival",
+            "location": "Njegoseva ulica",
+            "ticketsAvailable": 112,
+            "priceRange": "$3",
+            "icon": "museum"
+
+        }
+    },
+    {
+        "id": 3,
+        "uri": "https://m.media-amazon.com/images/I/71sRvCF9W+L._AC_SX466_.jpg",
+        "category": "Muzika"
+        ,
+        "details": {
+            "eventName": "Disco Night",
+            "location": "CKZ Ribnica",
+            "ticketsAvailable": 112,
+            "priceRange": "besplatno",
+            "icon": "music"
+        }
     }
 ]
+}
